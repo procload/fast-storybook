@@ -1,14 +1,13 @@
 
 import {
   FASTBaseProgress,
-  progressTemplate as template,
-  FoundationElementDefinition,
+  progressTemplate,
 } from '@microsoft/fast-foundation';
+import { FASTElementDefinition } from '@microsoft/fast-element';
 
 export class TriProgress extends FASTBaseProgress {
 }
 
-export const triProgress = TriProgress.compose<FoundationElementDefinition>({
-  baseName: "tri-progress",
-  template,
+export const triProgress = TriProgress.compose<FASTElementDefinition>({
+  template: progressTemplate()
 });

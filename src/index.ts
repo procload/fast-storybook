@@ -2,8 +2,7 @@ export * from './my-counter';
 export * from './my-progress';
 export * from './my-search';
 
-import * as Tri from './index-rollup';
-Tri;
+import { triProgress } from './my-progress';
 
 import {
   fastProgress,
@@ -11,9 +10,7 @@ import {
 } from "@microsoft/fast-components";
 
 
-import { triProgress } from './my-progress';
-
 provideFASTDesignSystem().register(
   fastProgress(),
-  triProgress()
+  // triProgress()
 );
