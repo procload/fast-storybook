@@ -2,7 +2,7 @@ import './index';
 
 // More on default export: https://storybook.js.org/docs/web-components/writing-stories/introduction#default-export
 export default {
-  title: 'Example/My Counter',
+  title: 'Components/My Counter',
   component: 'my-counter',
   args: {
     value: 0,
