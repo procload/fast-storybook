@@ -1,9 +1,13 @@
+
 import {
+  fastProgress,
   provideFASTDesignSystem,
-} from '@microsoft/fast-components';
+} from "@microsoft/fast-components";
+
 
 import { triProgress } from './my-progress';
 
- export const FASTDesignSystem = provideFASTDesignSystem().register(
+provideFASTDesignSystem().register(
+  fastProgress(),
   triProgress()
 );

@@ -68,8 +68,8 @@
   },
   "dependencies": {
     "@microsoft/fast-components": "^2.30.6",
-    "@microsoft/fast-element": "^1.7.0",
-    "@microsoft/fast-foundation": "^2.46.14",
+    "@microsoft/fast-element": "^2.0.0-beta.14",
+    "@microsoft/fast-foundation": "^3.0.0-alpha.17",
     "save": "^2.9.0"
   },
   "customElements": "custom-elements.json",
